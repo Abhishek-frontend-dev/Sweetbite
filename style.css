@@ -8,6 +8,9 @@
 body {
   background-color: #FFF5E1;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /*font style*/
 :root {

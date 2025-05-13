@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SweetBite Bakery</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <section id="navbar-section">
@@ -50,8 +51,9 @@
 
 
     <!---about section-->
-<section id="about-section">
-  <div class="about-container">
+<section id="about-section" data-aos="fade-up"
+data-aos-anchor-placement="top-bottom" data-aos-duration="1500" >
+  <div class="about-container" >
     <div class="about-img">
       <img src="assets/muffin-3510308_1280.jpg" alt="" style="max-width: 100%; height: auto;">
     </div>
@@ -72,7 +74,8 @@ SweetBite Bakery – come in as a guest, leave as family.</p>
 
     <!--about section end here-->
 <!--menu section start here-->
-    <section id="menu-section">
+    <section id="menu-section" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
       <div class="menu-container">
         <h3>SweetBite Bakery Menu</h3>
         <p>From oven-fresh breads to irresistible cakes and pastries, our menu is full of handcrafted treats made with love and the finest ingredients.</p>
@@ -146,19 +149,27 @@ SweetBite Bakery – come in as a guest, leave as family.</p>
     </section>
     <!--menu section end here-->
 <!--images gallery section start here-->
-    <section id="image-gallery">
+    <section id="image-gallery" data-aos="zoom-out-right"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
       
 <h3>SweetBite Bakery Gallery</h3>
 <p>Discover the serene charm of SweetBite Bakery — where the aroma of fresh bakes meets breathtaking mountain views</p>
 
 <div class="images-gallery">
-  <a href="assets/pexels-igor-ovsyannykov-56123-205961.jpg"><img src="assets/pexels-igor-ovsyannykov-56123-205961.jpg" alt=""></a>
-  <a href="assets/sweetbit-bakery.jpg"><img src="assets/sweetbit-bakery.jpg" alt=""></a>
-  <a href="assets/bakery-view.webp"><img src="assets/bakery-view.webp" alt=""></a>
-  <a href="assets/Berkshire-mountain-bakery.jpg"><img src="assets/Berkshire-mountain-bakery.jpg" alt=""></a>
-  <a href="assets/cafes-in-dharamshala.webp"><img src="assets/cafes-in-dharamshala.webp" alt=""></a>
-  <a href="assets/bakery-cafe.jpg"><img src="assets/bakery-cafe.jpg" alt=""></a>
-  <a href="assets/fromandroid.jpg"><img src="assets/fromandroid.jpg" alt=""></a>
+  <a href="assets/pexels-igor-ovsyannykov-56123-205961.jpg"><img src="assets/pexels-igor-ovsyannykov-56123-205961.jpg" alt="" data-aos="zoom-out-right"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1500"></a>
+  <a href="assets/sweetbit-bakery.jpg"><img src="assets/sweetbit-bakery.jpg" alt="" data-aos="zoom-out-right"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1500"></a>
+  <a href="assets/bakery-view.webp"><img src="assets/bakery-view.webp" alt="" data-aos="zoom-out-right"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1500"></a>
+  <a href="assets/Berkshire-mountain-bakery.jpg"><img src="assets/Berkshire-mountain-bakery.jpg" alt="" data-aos="zoom-out-right"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1500"></a>
+  <a href="assets/cafes-in-dharamshala.webp"><img src="assets/cafes-in-dharamshala.webp" alt="" data-aos="zoom-out-right"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1500"></a>
+  <a href="assets/bakery-cafe.jpg"><img src="assets/bakery-cafe.jpg" alt="" data-aos="zoom-out-right"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1500"></a>
+  <a href="assets/fromandroid.jpg"><img src="assets/fromandroid.jpg" alt="" data-aos="zoom-out-right"
+    data-aos-anchor-placement="top-bottom" data-aos-duration="1500"></a>
   
   
 
@@ -171,7 +182,8 @@ SweetBite Bakery – come in as a guest, leave as family.</p>
 
 <!---contact form start here-->
 
-<section id="contact" class="contact-section">
+<section id="contact" class="contact-section" data-aos="fade-up"
+data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
   <div class="container">
     <div class="contact-content">
       <div class="contact-left">
@@ -230,6 +242,11 @@ SweetBite Bakery – come in as a guest, leave as family.</p>
 
 
 <!--contact form end here-->
+
     <script src="javaScript.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
